@@ -1,0 +1,80 @@
+/* Instagram Embedding Style */
+.instagram_embedding_wrap{
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+}
+
+.instagram_embedding_header{
+	padding:20px;
+}
+
+.instagram_embedding_icon:before{
+	font-family:"alobaidi ig embed";
+	content:'\e805';
+	text-align:center;
+	display:block;
+	line-height:1 !important;
+	margin-bottom:20px;
+}
+
+.instagram_embedding_content img{
+	max-width:100%;
+	width:100%;
+	height:auto;
+	display:block;
+	margin:0 !important;
+	padding:0 !important;
+	background-color:transparent;
+	border:none !important;
+	float:none !important;
+	box-sizing: inherit !important;
+	-webkit-box-sizing: inherit !important;
+	-moz-box-sizing: inherit !important;
+	border-radius:0 !important;
+	-moz-border-radius:0 !important;
+	-webkit-border-radius:0 !important;
+	box-shadow:none !important;
+	-webkit-box-shado:none !important;
+	-moz-box-shadow:none !important;
+}
+
+.instagram_image_caption{
+	line-height:1.5 !important;
+	text-align:center;
+	padding:10px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+.instagram_embedding_content a{
+	outline:none !important;
+	padding:0 !important;
+	border:none !important;
+	text-shadow:none !important;
+	background:none !important;
+	line-height:1 !important;
+}
+
+a.instagram_author_url{
+	display:block;
+	margin: 0 !important;
+	text-align:left;
+	text-decoration:underline !important;
+}
+
+a.instagram_before{
+	margin: 0 !important;
+	text-decoration:none !important;
+}
+
+a.instagram_before img{
+	border:0 !important;
+}
+
+a.read_more_caption{
+	margin: 0 !important;
+	text-decoration:underline !important;
+	border:none !important;
+}
